@@ -45,8 +45,7 @@ public class MainActivity  extends AppCompatActivity {
         group1 = (RadioGroup) findViewById(R.id.radiogroup1);
         btn1 = (RadioButton) findViewById(R.id.btn1);
         btn2 = (RadioButton) findViewById(R.id.btn2);
-        btn3 = (RadioButton) findViewById(R.id.btn3);
-        btn1 = (RadioButton) findViewById(R.id.btn4);
+
         group3 = (RadioGroup) findViewById(R.id.radiogroup1);
         ibtn1 = (RadioButton) findViewById(R.id.ibtn1);
         ibtn2 = (RadioButton) findViewById(R.id.ibtn2);
@@ -82,16 +81,7 @@ public class MainActivity  extends AppCompatActivity {
             Usermeth.setBackgroundColor(Color.RED);
             Usermeth.setText("paypall:");
         }
-        if (btn3.isChecked()) {
-            Usermeth.setBackgroundColor(Color.MAGENTA);
-            Usermeth.setText("revolout:");
-        }
-        if (btn4.isChecked()) {
-            Usermeth.setBackgroundColor(Color.MAGENTA);
-            Usermeth.setText("Bitcoin:");
 
-
-        }
         Useritem  = (TextView) findViewById(R.id.useritem);
         Useritem.setTextColor(Color.WHITE);
         if (ibtn1.isChecked()) {

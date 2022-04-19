@@ -98,21 +98,7 @@
         android:layout_below="@id/textView5"
         tools:ignore="DuplicateIds">
 
-        <RadioButton
-            android:id="@+id/btn3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:checked="false"
-            android:text="revolout:" />
 
-        <RadioButton
-            android:id="@+id/btn4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:checked="false"
-            android:text="Bitcoin:" />
     </RadioGroup>
 
     <RadioGroup
